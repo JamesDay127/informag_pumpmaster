@@ -1,0 +1,38 @@
+notes as I go to outline in more detail when I submit
+
+- using react for multiple reasons
+    - I've been using it for 5 years at my current role, so I am very comfortable with it
+    - It's very popular, so it's ecosystem is full of packages to solve problems 
+    - most devs are familiar with it, so it's easier to onboard new/existing devs to a project with react
+
+    - MUI
+        - consistent, out of the box solution
+        - customisable
+        - easy to use
+
+    - assume sorting, pagination on frontend (response returns all and FE handles it)
+    - future improvement could move sorting/pagination to the backend to avoid returning all from db every time
+
+- typescript
+    - TS reasons. safety, etc.
+
+- react-router-dom
+- why?
+
+- pump modal is being passed the entire pump object
+    - could store in state and retrieve from there so modal can be used elsewhere in app
+
+
+- improvements
+    - move types to a shared contracts project to share between frontend and backend
+    - remove demo data, call to actual API
+    - user data in state, supply user/account id to calls for auth in API and avoid getting other account data
+
+
+- todo
+
+testing
+
+location map
+
+timeline
